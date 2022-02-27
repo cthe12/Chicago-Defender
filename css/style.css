@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+header, footer {
+    clear: both;
+}
+header {
+height: 700px;
+background-image: url(../img/chicagon-skyline.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+  
+}
+ul li {
+    float: left;
+    color: white;
+    margin-left: 85px;
+}
+
+main img {
+    width: 33.3333%;
+    float: left;
+    margin-top: 300px;
+    
+}
+.loc-img {
+   width: 33.3333%;
+   float: left;
+}
+.loc-img img {
+    width: 250px;
+    height: 200px;
+    margin-top: 80px;
+}
+.city-overview section {
+    width: 50%;
+    float: left;
+    height: 550px;
+    text-align: center;
+    background: rgb(58, 58, 107);
+}
+.city-overview {
+    overflow: hidden;
+    margin-top: 10px;
+
+}
+.location {
+    height: 700px;
+background-image: url(../img/chicagon-skyline.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+overflow: hidden;
+text-align: center;
+margin-top: 10px;
+}
+
+img {
+    width: 100px;
+    height: 200px;
+}
+.outline {
+    width: 80px;
+    height: 80px;
+}
+
+.description p {
+    line-height: 1.5;
+    margin-top: 60px;
+    background: rgb(163, 163, 163);
+    margin-left: 15px;
+}
+iframe {
+    margin-top: 60px;
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    margin-left: 280px;
+}
+a:link {
+    color: white;
+}
+h2 {
+    color: white;
+}
+.loc-img img:hover {
+    border: 3px solid white;
+    
+}
+.overview {
+    line-height: 1;
+    margin-top: 50px;
+    background: rgb(163, 163, 163);
+    margin-left: 15px;
+}
+footer {
+    background: rgb(163, 163, 163);
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.blackHistory img {
+    margin-left: 200px;
+    margin-top: 20px;
+    border: 10px ridge silver;
+    width: 250px;
+    height: 250px;
+}
