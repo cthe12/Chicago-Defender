@@ -33,6 +33,11 @@ main img {
     margin-top: 300px;
     
 }
+main section img {
+    width: 280px;
+    height: 280px;
+    margin-left: 130px;
+}
 .loc-img {
    width: 33.3333%;
    float: left;
@@ -49,16 +54,15 @@ main img {
     float: left;
     height: 550px;
     text-align: center;
-    background: rgb(58, 58, 107);
+ background: rgb(58, 58, 107);
 }
 .city-overview {
     overflow: hidden;
     margin-top: 10px;
-
 }
 .location {
     height: 700px;
-background-image: url(../img/chicagon-skyline.jpg);
+background-image: url(../img/chi-bean.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 overflow: hidden;
@@ -69,11 +73,6 @@ margin-top: 10px;
     font-family: 'Oswald', sans-serif;
     color: white;
 }
-
-img {
-    width: 100px;
-    height: 200px;
-}
 .outline {
     width: 80px;
     height: 80px;
@@ -81,7 +80,7 @@ img {
 
 .description p {
     line-height: 1.5;
-    margin-top: 60px;
+    margin-top: 35px;
     background: rgb(163, 163, 163);
     margin-left: 15px;
 }
